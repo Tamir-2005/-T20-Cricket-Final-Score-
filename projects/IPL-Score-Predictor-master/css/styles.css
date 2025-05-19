@@ -1,0 +1,91 @@
+/* Body styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Center the container */
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Main prediction area */
+.prediction-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 45px;
+}
+
+/* Image container for left side */
+.image-container-left, .image-container-right {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Image slider - if you want to add more images inside the containers */
+.image-slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Image container to make sure images fill the container */
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Form area (centered) */
+.form-area {
+    width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Input form styles */
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button styles */
+.myButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.myButton:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: ivory;
+    text-align: center;
+    padding: 10px 0;
+}
